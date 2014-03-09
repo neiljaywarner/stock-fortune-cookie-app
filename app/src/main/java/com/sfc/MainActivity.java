@@ -69,7 +69,10 @@ public class MainActivity extends Activity
         unregisterReceiver(receiver);
     }
 
-    //TODO: As needed we could store the
+    /**
+     *
+      * @param stockSymbol - filename and which stock info you are getting.
+     */
     public void startMyService(String stockSymbol) {
 
         Intent intent = new Intent(this, MyService.class);
